@@ -1,0 +1,14 @@
+{
+  "name": "node-6370-bulkwrite-hang",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.mjs",
+  "scripts": {
+    "pretest": "node setup.mjs",
+    "test": "node main.mjs"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
+}
